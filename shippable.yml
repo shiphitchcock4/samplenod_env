@@ -18,6 +18,7 @@ matrix:
   include:
     - node_js: 5.0
       env: BOO=bar
+      env: GOO=gar
   exclude:
     - node_js: 4.2.3
   
