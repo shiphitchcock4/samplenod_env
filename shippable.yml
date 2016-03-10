@@ -8,18 +8,18 @@ node_js:
   - iojs-v1
   - iojs-v2
   - iojs-v3
-
+  
 env: 
   global:
     - GOO=FUTU
     - FOO=GUTU
     
-  matrix:
-    include:
-      - node_js: 5.0
-        env: BOO=bar
-    exclude:
-      - node_js: 4.2.3
+matrix:
+  include:
+    - node_js: 5.0
+      env: BOO=bar
+  exclude:
+    - node_js: 4.2.3
   
 build:
   ci:
