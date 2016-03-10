@@ -3,13 +3,23 @@ language: node_js
 # Version number
 node_js:
   - 0.10
-
+  - 0.12
+  - 4.2.3
+  - iojs-v1
+  - iojs-v2
+  - iojs-v3
+  - 5.0
+  
 env: 
   global:
     - secure: cuFJ5m8MG9Z59Da1eF5FlCdHeGwY2ZYY60wsglEigeue0NdBMkZ7lDlU0jhlcwUIPxMPSwvGid9HkQ44PVOYN+5OU5XLw5dsbVlItkDvxrQ9rVMYqal9o400Y+Ulq9xd8MoW5PZOI3hPXaoh2SuTnBcvGLIySm32JOBry7UaZn260dkGxfoJdksec/IJ3i0RCjbg1Wp1SGJY9jAahgnAzBX6sZ6faL5WLGBz1wbvOSWMJ+MzJe4RnYuYJZLm7+nyhuC96ce/rLe+nw97oK3wkZ8q8M8WdrXKOxG9Wr/TZIlPiG8Xm2D59AnUeEj2OVhrZZ2FQDIeJPNosqoPAlfDQA==
     #- GOO=FUTU
     - secure: XqXfgUZrR8606u1Odmh2lKaRjv50MMa8qiWWBwJGhm+cKXIBJZMFRwhSJMaoxKMbPtDbeNNDfxBg/Z/lF6g4p4GRHTO+S2cXGnkKs9qlp9zISoWE592mrN2mhLcJswrO7dNaYKH+w84SUorzdMOhRIgXsqHVe0Jifj/ieYkFZlZi4IWWjhJSIRvRnhkkZ2tI6JMx5v7L+OtajzQE47YujGInWV7J9ZGyshmDjkufAlranUqINcd/x4mSRQIS2sDvxLUGR4JLZhLvfpmy/1p9rjgLNKiXvMFzXo1CIPIzdOWab6X/CuuVlHQByCpLsnsdEAxqEVhYFyqQQNonvUy03A==
     #- FOO=GUTU
+    
+  matrix:
+    - M1=one
+    - M2=two
   
 build:
   ci:
