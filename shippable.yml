@@ -11,9 +11,16 @@ node_js:
   - 5.0
 
 env: 
-  - GOO=FUTU
+  global:
+    - GOO=FUTU
+    - FOO=GUTU
+  
+  matrix:
+    - M1=ONE
+    - M2=TWO
   
 build:
   ci:
     - node --version
     - echo "$GOO"
+    - echo "$FOO"
