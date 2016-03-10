@@ -22,7 +22,6 @@ env:
    - TOO=Tar
     
   matrix:
-   global:
     - M1=one
     - M2=two
   
