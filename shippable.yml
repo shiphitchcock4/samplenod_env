@@ -3,14 +3,22 @@ language: node_js
 # Version number
 node_js:
   - 0.10
+  - 0.12
+  - 4.2.3
+  - iojs-v1
+  - iojs-v2
+  - iojs-v3
+  - 5.0
 
 env: 
   global:
-    - GOO=FUTU
-    - FOO=GUTU
+    - secure: Unmkmp74eKFhq+FPKyZp4W2FxfFcq3zaZ/O7tfNA6V0qKmpb1gk4tPZCbgSB074dhOXkqhUq6ZQdDdL0lk9WcxbYAS7bDko1mwH77N6o950l7WFTSRsqZmna7ZbMeFXqtp2E1I/z//XNaaOmPJMX0A6zfVNHojtWUakDXJ47IX/XWks72lMdUbXomyaunHDXmug1A0bbSv8QcCXt+ISK/HCR+wBI9uk20jO/TBCkAlAS/Dq76qxz7G6OqZ5q9X/lOGaw7s44C2eUYdpjnM8SdMMj/9u0Bq+nehyoXr/WIsl6lw0E1j1oNKWfxEl6fRsxR8RpJzYaj1LtS6awF11E7w==
+  #foo=bar
+    - secure: E1Df/08CkA4xoX4MWdrPNYJaDsL2sKrYhXfUOIsgDTAL9tEIOBENaDR4G1XKtsjxeg9uQMjoIYzPFnk6UIJdu88YKBE2E57Bfpf6T0pPUmSaOicEISUufkFiT+B7YwY0gxr3NwnwYPUow+AbaVazDpoeCC1CAAb+WZVEOf2yqRhQn5PdYsjzXiW4ntkpYdnijGxxRbwvGr8Rg49Dt0997BVZnbr9ZlpDqYq5DnvrpoMq0CSQrQ48ArhadgVX7I0i3oaKifUhRbhumo1IVFms8nvNVZd48tme4gQu4QaYZClOFat2XP1XJpySogt7qN1KcuSxrhtMdIZSq7qseTN6RQ==
+  #fubu=bubu  
   
 build:
   ci:
     - node --version
-    - echo "$GOO"
-    - echo "$FOO"
+    - echo "$fubu"
+    - echo "$foo"
