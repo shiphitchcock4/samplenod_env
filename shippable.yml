@@ -28,3 +28,4 @@ build:
     - echo "$GOO"
     - echo "$FOO"
     - echo "$BOO"
+    - echo "$GOO"
