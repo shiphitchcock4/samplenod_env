@@ -2,18 +2,26 @@ language: node_js
 
 # Version number
 node_js:
-  - 0.10
-  - 0.12
+ # - 0.10
+ # - 0.12
   - 4.2.3
-  - iojs-v1
-  - iojs-v2
-  - iojs-v3
-  - 5.0
+ # - iojs-v1
+ # - iojs-v2
+ # - iojs-v3
+ # - 5.0
 
 env: 
-  - GOO=FUTU
+  global:
+    - GOO=FUTU
+    - FOO=GUTU
+  matrix: 
+    - M1=one
+    - M2=two
   
 build:
   ci:
     - node --version
     - echo "$GOO"
+    - echo "$FOO"
+    - echo "$M1"
+    - echo "$M2"
