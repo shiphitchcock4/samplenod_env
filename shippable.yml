@@ -10,7 +10,10 @@ node_js:
   - iojs-v3
   - 5.0
 
+env: 
+  - GOO=FUTU
+  
 build:
   ci:
     - node --version
-    - sleep 3m
+    - echo "$GOO"
