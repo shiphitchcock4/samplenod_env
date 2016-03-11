@@ -19,15 +19,15 @@ env:
     - TOO=TUFU
     
   matrix:
-    global:
-      - M1=one
-      - M2=two
+    - M1=one
+    - M2=two
     
 build:
   ci:
     - node --version
     - echo "$GOO"
     - echo "$FOO"
+    - echo "$TOO"
     - echo "$M1"
     - echo "$M2"
     
