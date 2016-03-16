@@ -2,19 +2,20 @@ language: node_js
 
 # Version number
 node_js:
-  - 0.10
+  #- 0.10
   - 0.12
-  - 4.2.3
-  - iojs-v1
-  - iojs-v2
-  - iojs-v3
+  #- 4.2.3
+#  - iojs-v1
+ # - iojs-v2
+#  - iojs-v3
   - 5.0
 
 env: 
-  - secure: LHkY8CLX3nr05kHP9/NJmVbesYQv9XTNtahQeYapkPVlddld5B1f7QUIcUUc9cI2arbUfGQ5qGOKzonlel5n9uFx0TdFyn074gcwyQ8jjy1BqkUGFBveT/mTKl28ShSDCJ3G8Kqd2aX2N64JcRpW3ddwraZJd5TefsDzdHEf42fvynPgeW2NlEEENzjIyouBh+BgyN9ErgQ+KD6seRQIraUSXmqPZYbf3iUwosHdnfZkBK9Si46dOpqOj8PcqLwpf+vzGGQOhDwyWR65EQbMH0aDaE9A/Ha79scE6GBvKnCUU++lJsufc5KpOy7hWgqKA5ev2uIfDZhkmPOo6G9rGg==
+  - secure: lNsw1orTk1MBwux9Q1eTB/YJ9XG5QGpXXtsqprf0upYEu14QIG6CBcznL/MkeL5BRQHO67jXwGQSz+GORzX9NhGx6ahbgwQ47rZukGR2uq4GuBSW2U19VIFJ4MQDovUZ9MYO0jQbwPvseWc3Bcqta5jdUa+NlSEXfXjTejY/uvPsy7xNgFmph/M/9A1pMfmVfm9uTOx+Rqc6UHMsnN3fwkhV4V2DVk+CNUdmq8Zszgm7wuwk92XSfYgk7L59+KC2dlSJ3h8mEVvtYaE2UfnppJC2R9pZRwPBZxH5yvTFBCQ5qRsEYOItO3f40GPE98MFpstxbULXaAePjEa4iNWjQg==
+  #TEST=beta
   
 build:
   ci:
     - node --version
-    - echo "$fubu"
-    - echo "$foo"
+    - echo "$TEST"
+ #   - echo "$foo"
