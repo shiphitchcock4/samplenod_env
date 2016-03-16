@@ -11,7 +11,9 @@ node_js:
   - 5.0
 
 env: 
-  - TOO=Tu3@Bu  
+  - TOO12$=Tu3@Bu  
+  - secure: AU+VSLch+otLtF0CRfeeIsbntxrFx78EczgaKJu5d7vvkJTEq9ge3k8Q7bN5UgrFnWvrJ9EZDB/vImSRodd6qHnUKhLLHZplJ35YgTrGbE92FsWsjZ8VN39vh5uAck+Hj8Bq8enXnvDZoKy0JIpXkkM5z/JOP/lJknmSH7Hl5LhSGQ/qHC3S4bcpT0QBDQvDXttTxjesxkj3bFi6GwaaUGQsBGhOCWy3wGQzqpjW4gz8Ld6PJkenolLb5eBYT1fOWqhWzIA226HUZM/viBA6LjfhtMIgiEsjQbsQoPEn33GWz5JkzoX1bI9rilEkAfmKsvVNIxEFrxTTWYXUV6Gpqw== 
+  # te%st=beta
   - secure: KpeZ49Za2bAsG7YYRPyTzaiB6y2k8W/DGInT7FMGIiBbu7KuzS5xes3EZvuFQCqVOaR45ENyEX7WaQJCQR8wQXkOQZawSzp7yvsx9s0i9x/8K5FCy/Ijmg5Re1oFZKZmmiUmHFbzj/QKwo2qJGpz+KfKnH3OvK/8cnjHvFRKE4lrlGaaYn0SDEtT2CpjBWXTpKOlZeopcNZVBfiqRv+UzW6rDkTQeOR0Qc90x2Kwyw+Tdd/cExuT3PE0QYYyTU9WyplarGqdNVW8fkqkxNTde2xjTT0zRavcOsQcIPeGjlNxb+UbohyzTN46O+RlFnvnYDKEFR4UEQ0VmbWkekZCAQ==
   #  TEST*=beta
  # - secure: aZHtGb//qgIp8zTYD+9lwwPoltODIzm1UleemkAofMAs/BhANwQqBH4TEJF1ZgKtjzezMpPf2LpqvZCFQOOq3T4bd6sstS/a39wi4mX+KdpRK7ECJObE/3Wh9R3pvcyjCjl+bMwxZDymwgfgKl98f7Pvrb2Hzmh5tR9jBvwLUCMy8sJ8eAAZgNOasGThXMwNMaeahb3QRMvCIq63uPeQxHwLx6Ed3HkSBhuFRBkU2C+bkIYRIfRp6XCttStaX4sycTRo6hd9QCo+vcxv1avIvbk6tldCURu3cGVMzLIFcgBGuJcubgY5B9BHZP9i76YrH8OZOtwnMbI5YgSmZJMy+A==
