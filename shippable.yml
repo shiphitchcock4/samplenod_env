@@ -3,7 +3,7 @@ language: node_js
 # Version number
 node_js:
   #- 0.10
-  - 0.12
+#  - 0.12
   #- 4.2.3
 #  - iojs-v1
  # - iojs-v2
@@ -12,7 +12,8 @@ node_js:
 
 env: 
   - TOO12$=Tu3@Bu  
-  - secure: AU+VSLch+otLtF0CRfeeIsbntxrFx78EczgaKJu5d7vvkJTEq9ge3k8Q7bN5UgrFnWvrJ9EZDB/vImSRodd6qHnUKhLLHZplJ35YgTrGbE92FsWsjZ8VN39vh5uAck+Hj8Bq8enXnvDZoKy0JIpXkkM5z/JOP/lJknmSH7Hl5LhSGQ/qHC3S4bcpT0QBDQvDXttTxjesxkj3bFi6GwaaUGQsBGhOCWy3wGQzqpjW4gz8Ld6PJkenolLb5eBYT1fOWqhWzIA226HUZM/viBA6LjfhtMIgiEsjQbsQoPEn33GWz5JkzoX1bI9rilEkAfmKsvVNIxEFrxTTWYXUV6Gpqw== 
+  - $ZOO=beta
+ # - secure: AU+VSLch+otLtF0CRfeeIsbntxrFx78EczgaKJu5d7vvkJTEq9ge3k8Q7bN5UgrFnWvrJ9EZDB/vImSRodd6qHnUKhLLHZplJ35YgTrGbE92FsWsjZ8VN39vh5uAck+Hj8Bq8enXnvDZoKy0JIpXkkM5z/JOP/lJknmSH7Hl5LhSGQ/qHC3S4bcpT0QBDQvDXttTxjesxkj3bFi6GwaaUGQsBGhOCWy3wGQzqpjW4gz8Ld6PJkenolLb5eBYT1fOWqhWzIA226HUZM/viBA6LjfhtMIgiEsjQbsQoPEn33GWz5JkzoX1bI9rilEkAfmKsvVNIxEFrxTTWYXUV6Gpqw== 
   # te%st=beta
   #- secure: KpeZ49Za2bAsG7YYRPyTzaiB6y2k8W/DGInT7FMGIiBbu7KuzS5xes3EZvuFQCqVOaR45ENyEX7WaQJCQR8wQXkOQZawSzp7yvsx9s0i9x/8K5FCy/Ijmg5Re1oFZKZmmiUmHFbzj/QKwo2qJGpz+KfKnH3OvK/8cnjHvFRKE4lrlGaaYn0SDEtT2CpjBWXTpKOlZeopcNZVBfiqRv+UzW6rDkTQeOR0Qc90x2Kwyw+Tdd/cExuT3PE0QYYyTU9WyplarGqdNVW8fkqkxNTde2xjTT0zRavcOsQcIPeGjlNxb+UbohyzTN46O+RlFnvnYDKEFR4UEQ0VmbWkekZCAQ==
   #  TEST*=beta
