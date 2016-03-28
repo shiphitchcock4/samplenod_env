@@ -12,7 +12,7 @@ node_js:
   
 branches:
   only: 
-    - branch/test1
+    - branch/test*
     
   except: 
     - master
