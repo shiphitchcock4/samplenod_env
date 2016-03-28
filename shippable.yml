@@ -12,7 +12,7 @@ node_js:
   
 branches:
   only: 
-    - &test
+    - &test1
   
 build:
   ci:
