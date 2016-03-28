@@ -13,4 +13,4 @@ build:
   ci:
     - node --version
     - echo "$GOO"
-    - echo "$FOO"
+    - echo "$FOO"   
