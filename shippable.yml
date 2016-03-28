@@ -14,7 +14,7 @@ branches:
   only: 
     - branches
     - master
-
+  
 build:
   ci:
     - node --version
