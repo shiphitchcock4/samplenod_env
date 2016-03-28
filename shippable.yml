@@ -13,6 +13,9 @@ node_js:
 branches:
   only: 
     - branches
+    - matrix-include
+    
+  except: 
     - master
   
 build:
