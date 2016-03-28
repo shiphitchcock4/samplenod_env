@@ -18,4 +18,4 @@ branches:
 build:
   ci:
     - node --version
-    - sleep 3m
+  #  - sleep 3m
