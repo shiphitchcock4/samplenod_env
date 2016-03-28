@@ -12,9 +12,7 @@ node_js:
   
 branches:
   only: 
-    - branches
-    - matrix-include
-    - test.branch
+    - branch/test1
     
   except: 
     - master
