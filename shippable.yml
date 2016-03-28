@@ -29,4 +29,4 @@ build:
     - echo "$FOO"
     - echo "$TOO"
     - echo "$M1"
-    - echo "$M2"
+    - echo "$M2"   
