@@ -12,8 +12,8 @@ node_js:
   
 branches:
   except: 
-    - branch/test*
-  
+    - @test-br*
+    
 build:
   ci:
     - node --version
