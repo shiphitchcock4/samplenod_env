@@ -11,11 +11,11 @@ node_js:
   - 5.0
   
 branches:
-  only: 
-    - branch/test1
+  #only: 
+   # - branch/test1
     
   except: 
-    - master
+    - branch*
   
 build:
   ci:
