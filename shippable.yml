@@ -11,8 +11,8 @@ node_js:
   - 5.0
   
 branches:
-  except: 
-    - branch/test*
+  only: 
+    - *test-br*
   
 build:
   ci:
