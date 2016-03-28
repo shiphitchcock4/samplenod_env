@@ -12,7 +12,7 @@ node_js:
   
 branches:
   only: 
-    - "%24test%25br2"
+    - "$test9"
     
 build:
   ci:
