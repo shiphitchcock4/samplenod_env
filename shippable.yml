@@ -9,8 +9,13 @@ node_js:
   - iojs-v2
   - iojs-v3
   - 5.0
+  
+branches:
+  only: 
+    - branches
+    - master
 
 build:
   ci:
     - node --version
-    - sleep 3m
+   # - sleep 3m
