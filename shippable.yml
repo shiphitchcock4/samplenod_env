@@ -18,7 +18,7 @@ env:
 "globalEnv": {
   "FOO": "bar",
   "FIZZ": "buzz"
-  "POST": /projects/56fb63f6c77dae78a8fcc431/newBuild
+  "POST": /projects/:56fb63f6c77dae78a8fcc431/newBuild
 }
 
 branches:
