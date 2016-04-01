@@ -3,12 +3,23 @@ language: node_js
 # Version number
 node_js:
   - 0.10
-  - 0.12
-  - 4.2.3
-  - iojs-v1
-  - iojs-v2
-  - iojs-v3
-  - 5.0
+ # - 0.12
+  #- 4.2.3
+  #- iojs-v1
+  #- iojs-v2
+  #- iojs-v3
+  #- 5.0
+  
+env:
+  global:
+    - FOO1="bar1"
+    - FOO2="bar2"
+
+"globalEnv": {
+  "FOO": "bar",
+  "FIZZ": "buzz"
+  "POST": /projects/56fb63f6c77dae78a8fcc431/newBuild
+}
 
 branches:
   only: 
