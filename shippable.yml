@@ -13,12 +13,13 @@ node_js:
 branches:
   only: 
     - branches
+    - master
     - matrix-include
     
-  except: 
-    - master
+ # except: 
+  #  - master
   
 build:
   ci:
     - node --version
-   # - sleep 3m
+    - sleep 3m
