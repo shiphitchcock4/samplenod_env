@@ -16,8 +16,9 @@ node_js:
    # - FOO=GUTU
   
 matrix:
- - M1=ONE
- - M2=TWO
+  - include:
+    env: M1=ONE
+    env: M2=TWO
   
 build:
   ci:
