@@ -10,15 +10,14 @@ node_js:
  # - iojs-v3
   - 5.0
 
-#env: 
- # global:
-  #  - GOO=FUTU
-   # - FOO=GUTU
+env: 
+  global:
+    - GOO=FUTU
+    - FOO=GUTU
   
-matrix:
-  - include:
-    env: M1=ONE
-    env: M2=TWO
+  matrix:
+    - M1=ONE
+    - M2=TWO
   
 build:
   ci:
