@@ -12,12 +12,12 @@ node_js:
 
 env: 
  - GOO=FUTU
- #- FOO=GUTU
+ - FOO=GUTU
   
 build:
   ci:
     - node --version
     - echo "$GOO"
-    #- echo "$FOO"
+    - echo "$FOO"
     #- echo "$M1"
     #- echo "$M2"
