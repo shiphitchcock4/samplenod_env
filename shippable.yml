@@ -18,19 +18,19 @@ env:
    - secure: IZIzFswo05CXhHFYbY9LQf317duyxmlCQoKyb7CfOo8t1yf1R/zROkHyF21lwgno6POnwIIXcHaH/Bp05BizMjRGDM5FOcu9QVhYsc86IDfYVBzSvECtxQpQVt1VtTaVD2lo6OMkBDZXX6sbYTpgq3SH3b36FlW7+sO0FqI5IMydeXulDLkKcrLc/AY4FyxFFNyCg82W7GraQPwdJU/B2xrwlLmzdD6wre/haIyxYIYcH30SxVHFAVd1IscbW5J2OmfGyK1r/0bMn0tkt5FyBwf8lhEHmKeax1FwwAUH4arYH8ShPHdqJD4X8TOekFJ37BL2PzIs0Ns4BQUtZRadsQ==
    # - secure: XqXfgUZrR8606u1Odmh2lKaRjv50MMa8qiWWBwJGhm+cKXIBJZMFRwhSJMaoxKMbPtDbeNNDfxBg/Z/lF6g4p4GRHTO+S2cXGnkKs9qlp9zISoWE592mrN2mhLcJswrO7dNaYKH+w84SUorzdMOhRIgXsqHVe0Jifj/ieYkFZlZi4IWWjhJSIRvRnhkkZ2tI6JMx5v7L+OtajzQE47YujGInWV7J9ZGyshmDjkufAlranUqINcd/x4mSRQIS2sDvxLUGR4JLZhLvfpmy/1p9rjgLNKiXvMFzXo1CIPIzdOWab6X/CuuVlHQByCpLsnsdEAxqEVhYFyqQQNonvUy03A==
     #- FOO=GUTU
-   - BOO=Bar
-   - TOO=Tar
+   #- BOO=Bar
+  # - TOO=Tar
     
-  matrix:
-    - M1=one
-    - M2=two
+  #matrix:
+  #  - M1=one
+  #  - M2=two
   
 build:
   ci:
     - node --version
     - echo "$GOO"
     - echo "$FOO"
-    - echo "$BOO"
-    - echo "$TOO"
+  #  - echo "$BOO"
+  #  - echo "$TOO"
     - echo "$M1"
     - echo "$M2"
