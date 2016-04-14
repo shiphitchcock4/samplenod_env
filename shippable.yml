@@ -18,3 +18,4 @@ build:
     - node --version
     #- echo "$GOO"
     - echo "$FOO" #bar   
+    - sleep 11m
