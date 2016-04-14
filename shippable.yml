@@ -11,9 +11,11 @@ node_js:
   - 5.0
   
 branches:
-  only: 
-    - "@test-br1"
-  
+  #only: 
+   # - "@test-br1"
+  except:
+    - "*br*"
+    
 build:
   ci:
     - node --version
