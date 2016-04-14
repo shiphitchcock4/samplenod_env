@@ -17,4 +17,4 @@ build:
   ci:
     - node --version
     #- echo "$GOO"
-    - echo "$FOO" #bar 
+    - echo "$FOO" #bar   
