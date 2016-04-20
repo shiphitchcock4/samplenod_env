@@ -27,5 +27,5 @@ build:
     - node --version
     - echo "$TOO"
     - echo "$FOO"
-    - echo "$key1"
+    - echo "$key1"   
     - echo "$key3"
