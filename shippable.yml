@@ -3,24 +3,28 @@ language: node_js
 # Version number
 node_js:
   - 0.10
-  - 0.12
-  - 4.2.3
-  - iojs-v1
-  - iojs-v2
-  - iojs-v3
+ # - 0.12
+  #- 4.2.3
+  #- iojs-v1
+  #- iojs-v2
+  #- iojs-v3
   - 5.0
   
 env: 
   global:
- #  - secure: iNJApO7bUe5jqL0KRWEI0V9jrw72Jb0toObs47WcuxWYfXLyewV6UCspxuUwY+dY/NV9ElG33+VBg2QmZuYLGJPWTjm2USVZSljSoIP+PRQrqjJufzg22dq5AzYEBRNvfV3ZuRiqIYeYWmgo/1pRE+8zwkkfCOwQY43jsNZuwSRwJXHcbbUgzRP19vwydSucfHgMm8ePPHQDP+6XFlvp9Leeq6Liq8oVYO7C6y6xtW78sSn8841ImNTX7IB1cHUHgCKfMQRVCT1l8F9aTuIjZ4lmIt6WnJNEel0YaP3uQb0N3qGsSi6urafzOGiPSGHRbFwGkblGFApRdfLNgdp9Pw==
-   - secure: cuFJ5m8MG9Z59Da1eF5FlCdHeGwY2ZYY60wsglEigeue0NdBMkZ7lDlU0jhlcwUIPxMPSwvGid9HkQ44PVOYN+5OU5XLw5dsbVlItkDvxrQ9rVMYqal9o400Y+Ulq9xd8MoW5PZOI3hPXaoh2SuTnBcvGLIySm32JOBry7UaZn260dkGxfoJdksec/IJ3i0RCjbg1Wp1SGJY9jAahgnAzBX6sZ6faL5WLGBz1wbvOSWMJ+MzJe4RnYuYJZLm7+nyhuC96ce/rLe+nw97oK3wkZ8q8M8WdrXKOxG9Wr/TZIlPiG8Xm2D59AnUeEj2OVhrZZ2FQDIeJPNosqoPAlfDQA==
-    #- GOO=FUTU
-   #- secure: IZIzFswo05CXhHFYbY9LQf317duyxmlCQoKyb7CfOo8t1yf1R/zROkHyF21lwgno6POnwIIXcHaH/Bp05BizMjRGDM5FOcu9QVhYsc86IDfYVBzSvECtxQpQVt1VtTaVD2lo6OMkBDZXX6sbYTpgq3SH3b36FlW7+sO0FqI5IMydeXulDLkKcrLc/AY4FyxFFNyCg82W7GraQPwdJU/B2xrwlLmzdD6wre/haIyxYIYcH30SxVHFAVd1IscbW5J2OmfGyK1r/0bMn0tkt5FyBwf8lhEHmKeax1FwwAUH4arYH8ShPHdqJD4X8TOekFJ37BL2PzIs0Ns4BQUtZRadsQ==
-   #- secure: XqXfgUZrR8606u1Odmh2lKaRjv50MMa8qiWWBwJGhm+cKXIBJZMFRwhSJMaoxKMbPtDbeNNDfxBg/Z/lF6g4p4GRHTO+S2cXGnkKs9qlp9zISoWE592mrN2mhLcJswrO7dNaYKH+w84SUorzdMOhRIgXsqHVe0Jifj/ieYkFZlZi4IWWjhJSIRvRnhkkZ2tI6JMx5v7L+OtajzQE47YujGInWV7J9ZGyshmDjkufAlranUqINcd/x4mSRQIS2sDvxLUGR4JLZhLvfpmy/1p9rjgLNKiXvMFzXo1CIPIzdOWab6X/CuuVlHQByCpLsnsdEAxqEVhYFyqQQNonvUy03A==
-    #- FOO=GUTU
    - BOO=Bar
-  # - TOO=Tar
-    
+   - FOO=TAR
+   #- test12=beta12
+  # - @test=fleming
+  # - 123foo=456bar
+  # - TEST="bar"
+  # - SHIP="testing beta"
+  # - BEFORE:After
+  # - ZUB=tub MUB=sub SUG=lig
+  # - YUB=*rub
+  # - GUG^=iig
+  # - EUG=po*p
+  
   matrix:
     - secure: XqXfgUZrR8606u1Odmh2lKaRjv50MMa8qiWWBwJGhm+cKXIBJZMFRwhSJMaoxKMbPtDbeNNDfxBg/Z/lF6g4p4GRHTO+S2cXGnkKs9qlp9zISoWE592mrN2mhLcJswrO7dNaYKH+w84SUorzdMOhRIgXsqHVe0Jifj/ieYkFZlZi4IWWjhJSIRvRnhkkZ2tI6JMx5v7L+OtajzQE47YujGInWV7J9ZGyshmDjkufAlranUqINcd/x4mSRQIS2sDvxLUGR4JLZhLvfpmy/1p9rjgLNKiXvMFzXo1CIPIzdOWab6X/CuuVlHQByCpLsnsdEAxqEVhYFyqQQNonvUy03A==
     - M1=one
