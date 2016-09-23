@@ -12,15 +12,15 @@ node_js:
   
 env: 
 #  global:
-   - BOO=Bar
-   - FOO=TAR
-   - test12=beta12
-   - TEST="bar"
-   - SHIP="testing beta"
-   - ZUB=tub MUB=sub SUG=lig
-   - YUB=*rub
-   - @test=fleming
-  # - 123foo=456bar
+   - BOO=Bar #valid
+   - FOO=TAR #valid
+   - test12=beta12 #valid
+   - TEST="bar" # valid
+   - SHIP="testing beta" #valid
+   - ZUB=tub MUB=sub SUG=lig  
+   - YUB=*rub #valid
+  # - @test=fleming #Alerts 0s  Errors invalid yml format bad indentation of a sequence entry at line 22, column 6:       - @test=fleming         ^
+   - 123foo=456bar
   # - BEFORE:After
   # - GUG^=iig
   # - EUG=po*p
