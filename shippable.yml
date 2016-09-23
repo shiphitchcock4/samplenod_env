@@ -23,7 +23,7 @@ env:
   # - 123foo=456bar #setup_env 0s  echo 'An error occurred while trying to export an environment variable: 123foo Please check your YML env section' 0s
   # - BEFORE:After #setup_env 1s  echo 'An error occurred while trying to export an environment variable: BEFORE:After Please check your YML env section'
   # - GUG^=iig #  setup_env 0s  echo 'An error occurred while trying to export an environment variable: GUG^ Please check your YML env section' 
-   - EUG=po*p
+   - EUG=po@p
   
 #   matrix:
 #     - secure: XqXfgUZrR8606u1Odmh2lKaRjv50MMa8qiWWBwJGhm+cKXIBJZMFRwhSJMaoxKMbPtDbeNNDfxBg/Z/lF6g4p4GRHTO+S2cXGnkKs9qlp9zISoWE592mrN2mhLcJswrO7dNaYKH+w84SUorzdMOhRIgXsqHVe0Jifj/ieYkFZlZi4IWWjhJSIRvRnhkkZ2tI6JMx5v7L+OtajzQE47YujGInWV7J9ZGyshmDjkufAlranUqINcd/x4mSRQIS2sDvxLUGR4JLZhLvfpmy/1p9rjgLNKiXvMFzXo1CIPIzdOWab6X/CuuVlHQByCpLsnsdEAxqEVhYFyqQQNonvUy03A==
