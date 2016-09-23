@@ -21,7 +21,7 @@ env:
    - SHIP="testing beta"
   # - BEFORE:After
    - ZUB=tub MUB=sub SUG=lig
-  # - YUB=*rub
+   - YUB=*rub
   # - GUG^=iig
   # - EUG=po*p
   
