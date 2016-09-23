@@ -11,17 +11,17 @@ node_js:
   - 5.0
   
 env: 
-  global:
+#  global:
    - BOO=Bar
    - FOO=TAR
    - test12=beta12
-  # - @test=fleming
-  # - 123foo=456bar
    - TEST="bar"
    - SHIP="testing beta"
-  # - BEFORE:After
    - ZUB=tub MUB=sub SUG=lig
    - YUB=*rub
+   - @test=fleming
+  # - 123foo=456bar
+  # - BEFORE:After
   # - GUG^=iig
   # - EUG=po*p
   
