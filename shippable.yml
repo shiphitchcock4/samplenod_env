@@ -14,30 +14,30 @@ env:
   global:
    - BOO=Bar
    - FOO=TAR
-   #- test12=beta12
+   - test12=beta12
   # - @test=fleming
-  # - 123foo=456bar
-  # - TEST="bar"
-  # - SHIP="testing beta"
+   - 123foo=456bar
+   - TEST="bar"
+   - SHIP="testing beta"
   # - BEFORE:After
-  # - ZUB=tub MUB=sub SUG=lig
+   - ZUB=tub MUB=sub SUG=lig
   # - YUB=*rub
   # - GUG^=iig
   # - EUG=po*p
   
-  matrix:
-    - secure: XqXfgUZrR8606u1Odmh2lKaRjv50MMa8qiWWBwJGhm+cKXIBJZMFRwhSJMaoxKMbPtDbeNNDfxBg/Z/lF6g4p4GRHTO+S2cXGnkKs9qlp9zISoWE592mrN2mhLcJswrO7dNaYKH+w84SUorzdMOhRIgXsqHVe0Jifj/ieYkFZlZi4IWWjhJSIRvRnhkkZ2tI6JMx5v7L+OtajzQE47YujGInWV7J9ZGyshmDjkufAlranUqINcd/x4mSRQIS2sDvxLUGR4JLZhLvfpmy/1p9rjgLNKiXvMFzXo1CIPIzdOWab6X/CuuVlHQByCpLsnsdEAxqEVhYFyqQQNonvUy03A==
-    - M1=one
-   # - M2=two
+#   matrix:
+#     - secure: XqXfgUZrR8606u1Odmh2lKaRjv50MMa8qiWWBwJGhm+cKXIBJZMFRwhSJMaoxKMbPtDbeNNDfxBg/Z/lF6g4p4GRHTO+S2cXGnkKs9qlp9zISoWE592mrN2mhLcJswrO7dNaYKH+w84SUorzdMOhRIgXsqHVe0Jifj/ieYkFZlZi4IWWjhJSIRvRnhkkZ2tI6JMx5v7L+OtajzQE47YujGInWV7J9ZGyshmDjkufAlranUqINcd/x4mSRQIS2sDvxLUGR4JLZhLvfpmy/1p9rjgLNKiXvMFzXo1CIPIzdOWab6X/CuuVlHQByCpLsnsdEAxqEVhYFyqQQNonvUy03A==
+#     - M1=one
+#   # - M2=two
    
-matrix:
-  include:
-    - node_js: "5.0"
-      env:
-        - key1=aaa
-        - key3=bbbb
-  exclude:
-    - node_js: "4.2.3"
+# matrix:
+#   include:
+#     - node_js: "5.0"
+#       env:
+#         - key1=aaa
+#         - key3=bbbb
+#   exclude:
+#     - node_js: "4.2.3"
   
 #branches:
  # only: 
