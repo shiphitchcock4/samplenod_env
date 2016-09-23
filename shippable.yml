@@ -11,7 +11,7 @@ node_js:
   - 5.0
   
 env: 
-#  global:
+  global:
    - BOO=Bar #valid
    - FOO=TAR #valid
    - test12=beta12 #valid
