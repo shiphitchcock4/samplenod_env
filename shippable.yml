@@ -17,11 +17,11 @@ env:
    - test12=beta12 #valid
    - TEST="bar" # valid
    - SHIP="testing beta" #valid
-   - ZUB=tub MUB=sub SUG=lig  
+   - ZUB=tub MUB=sub SUG=lig  #valid
    - YUB=*rub #valid
   # - @test=fleming #Alerts 0s  Errors invalid yml format bad indentation of a sequence entry at line 22, column 6:       - @test=fleming         ^
-   - 123foo=456bar
-  # - BEFORE:After
+  # - 123foo=456bar #setup_env 0s  echo 'An error occurred while trying to export an environment variable: 123foo Please check your YML env section' 0s
+   - BEFORE:After
   # - GUG^=iig
   # - EUG=po*p
   
