@@ -21,6 +21,8 @@ matrix:
         - key3=bbbb
   exclude:
     - node_js: "4.2.3"
+      env:
+        - TOO=FUTU
   
 build:
   ci:
