@@ -14,7 +14,7 @@ branches:
   only: 
     - branches
     - matrix-include
-    - test.branch
+    - test:branch
     
   except: 
     - master
