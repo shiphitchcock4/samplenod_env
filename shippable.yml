@@ -10,14 +10,10 @@ node_js:
   - iojs-v3
   - 5.0
   
-branches:
-  only: 
-    - branches
-    - matrix-include
-    - test:branch
+
     
-  except: 
-    - master
+    
+ 
   
 build:
   ci:
