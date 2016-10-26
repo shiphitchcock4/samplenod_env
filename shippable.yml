@@ -10,12 +10,12 @@ node_js:
  # - iojs-v3
   - 5.0 
   
-branches:
+#branches:
   #only: 
    # - branch/test1
     
-  except: 
-    - branch*
+  #except: 
+   # - branch*
   
 build:
   ci:
