@@ -11,9 +11,9 @@ node_js:
   - 5.0
   
 branches:
-  only:
-    #- testbranch
-    - branchpr
+  except:
+    - testbranch
+    #- branchpr
     
     
  
