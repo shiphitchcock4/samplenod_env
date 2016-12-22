@@ -14,13 +14,30 @@ env:
     - TOO=FUTU
     - FOO=GUTU
     
-matrix:
-  include:
-    - node_js: 5.0
-      env: BOO=bar
-      env: GOO=gar
+#matrix:
+#  include:
+ #   - node_js: 5.0
+ #     env: BOO=bar
+ #     env: GOO=gar
+ # exclude:
+ #   - node_js: 4.2.3
+matrix:    
   exclude:
-    - node_js: 4.2.3
+    - node_js: "0.10"
+   #   env: 
+    #    - bar=foo
+    #    - new=ni
+    #  env: ship@=test
+    #- node_js: "0.12"
+     # env: j3=ui
+   #   env: ship@=test
+  include:
+    - node_js: "0.12" 
+       # env: j3=ui
+      env: ship@=test
+  allow_failures:
+   # - node_js: 0.10
+    - node_js: 0.12
   
 build:
   ci:
